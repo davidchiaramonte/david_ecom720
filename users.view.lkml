@@ -69,7 +69,8 @@ view: users {
 
   dimension: state {
     type: string
-    sql: ${TABLE}.state ;;
+    sql: LOWER(${TABLE}.state) ;;
+    map_layer_name: us_states
   }
 
   dimension: zip {

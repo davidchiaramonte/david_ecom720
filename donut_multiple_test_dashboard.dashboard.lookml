@@ -15,7 +15,7 @@
     limit: 10
     query_timezone: America/Los_Angeles
     show_value_labels: true
-    font_size: 17
+    font_size: '17'
     color_application:
       collection_id: 5591d8d1-6b49-4f8e-bafa-b874d82f8eb7
       palette_id: 18d0c733-1d87-42a9-934f-4ba8ef81d736

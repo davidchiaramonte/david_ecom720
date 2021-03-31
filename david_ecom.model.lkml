@@ -9,7 +9,7 @@ datagroup: david_ecom_default_datagroup {
   max_cache_age: "1 hour"
 }
 
-#test
+#test comment
 
 datagroup: bug_repro_refresh_rate {
   sql_trigger: SELECT FLOOR(UNIX_TIMESTAMP() / (2*60*60)) ;;

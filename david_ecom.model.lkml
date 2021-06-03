@@ -71,6 +71,7 @@ explore: order_items {
 }
 
 explore: orders {
+  from: orders
   persist_for: "0 seconds"
 #   always_filter: {
 #     filters: {
@@ -141,3 +142,6 @@ explore: foo {
 }
 
 explore: NDT_timezone_test {}
+
+
+explore: orders_random {}
